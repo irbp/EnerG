@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EnerG</string>
+    <string name="username">Email</string>
+    <string name="password">Senha</string>
+    <string name="login">LOGIN</string>
+    <string name="new_account">Criar conta</string>
+    <string name="Login_error">Email ou senha errados</string>
+
+</resources>

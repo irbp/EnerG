@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:text="EnerG"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.37"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:textColor="#6fbf6f"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id = "@+id/user"
+        android:layout_width = "300dp"
+        android:layout_height = "wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text = "@string/username"
+        />
+
+    <EditText
+        android:id = "@+id/password"
+        android:layout_width = "300dp"
+        android:layout_height = "wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:inputType = "textPassword"
+        android:text = "@string/password"
+        />
+    <Button
+        android:id = "@+id/login"
+        android:layout_width = "320dp"
+        android:layout_height = "40dp"
+        android:onClick = "login"
+        android:text = "@string/login"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#ff8585" />
+    <Button
+        android:id = "@+id/register"
+        android:layout_width = "127dp"
+        android:layout_height = "wrap_content"
+        android:onClick = "login"
+        android:text = "@string/new_account"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        android:background="#00ffffff" />
+
+</LinearLayout>
