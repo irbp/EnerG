@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "386701331714",
+    "firebase_url": "https://energ-3e08a.firebaseio.com",
+    "project_id": "energ-3e08a",
+    "storage_bucket": "energ-3e08a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386701331714:android:733cf8d329559650",
+        "android_client_info": {
+          "package_name": "goncinha.energ"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386701331714-lhu45b14s08hfveukmkolfgksofajot1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goncinha.energ",
+            "certificate_hash": "F9EA65D26E8D1D284C96A285096B9E070ACE5488"
+          }
+        },
+        {
+          "client_id": "386701331714-opvltti8vadpamoqrujal488rdaco1dp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goncinha.energ",
+            "certificate_hash": "FB09C9917E2EDBE1D3C3234C4CC512BB194BB3F0"
+          }
+        },
+        {
+          "client_id": "386701331714-rhef4fqiatj1ouefuuliu4b46j4t6qo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvClorVGHsstMtMuufv4aNhtX8l8YC9Fo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386701331714-rhef4fqiatj1ouefuuliu4b46j4t6qo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

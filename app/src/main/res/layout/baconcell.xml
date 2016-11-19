@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/baconicon"
+        android:src="@drawable/geladeira"
+        android:layout_marginLeft="40dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/onoff"
+        android:src="@drawable/on"
+        android:layout_marginLeft="320dp"
+        android:layout_alignTop="@+id/baconname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="39dp"
+        />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:id="@+id/baconname"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="30dp"
+        android:text="Bacon1"
+        android:layout_toEndOf="@+id/baconicon"
+        android:layout_alignTop="@+id/baconicon" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:id="@+id/bacondisp"
+        android:text="Online"
+        android:textColor="@color/black"
+        android:layout_below="@+id/baconname"
+        android:layout_alignStart="@+id/baconname" />
+
+</RelativeLayout>

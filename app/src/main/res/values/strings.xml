@@ -5,5 +5,10 @@
     <string name="login">LOGIN</string>
     <string name="new_account">Criar conta</string>
     <string name="Login_error">Email ou senha errados</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="bacon1">Bacon1</string>
 
 </resources>
