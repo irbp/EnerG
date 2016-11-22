@@ -161,4 +161,7 @@ public class Login extends AppCompatActivity {
             mAuth.removeAuthStateListener(mAuthListener);
         }
     }
+    private void teste(){
+        int i = 1;
+    }
 }
