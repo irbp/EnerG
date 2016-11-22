@@ -38,7 +38,8 @@
         android:textColor="?attr/colorPrimary"
         android:maxLines="1"
         android:hint="@string/username"
-        android:textColorHint="@color/black"/>
+        android:textColorHint="@color/black"
+        android:visibility="visible" />
     <ImageView
         android:layout_width="300dp"
         android:layout_height="1dp"

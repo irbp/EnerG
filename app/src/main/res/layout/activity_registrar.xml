@@ -64,6 +64,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:id="@+id/btn_signup" />
+        android:id="@+id/btn_signup"
+        android:elevation="0dp"
+        android:backgroundTint="@color/pink"
+        android:textColor="@color/cardview_light_background" />
 
 </RelativeLayout>
