@@ -2,337 +2,355 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4e6470fe5081bd76bb727ea9d0d9de373ac5940b">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-24.2.1_986e4286de22651427a3aa21dab49293f301efc6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.8.0_b411b63854c3236a6073011e3f4859ee4a11ab4c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_13dd9f2b6af1391fba0fe7242f974c5fd3b1a91f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.8.0_a59a42eb3757b8949d1b8c234876c2ce9fab4ede.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_16e07036d7b1c10c1c04ece3117e2ba535d9d5a5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.8.0_c42b90450a1e40e61504edc75af09370ac700e70.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_62dcd5e50e025d2d443a86756b8b1b3c8f0cc11f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_6210feb2bcd059d1b6fec250d298d75bc4a91332.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_cd878413f8ab8790814d74fbfacb930e0ab46346.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_6cfcbd5a9feba957497b34dceb1b31a502734c8f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.8.0_f5990ff307e5f7ab0bcb209a5d8dde45c0556cb0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_d9b50d0c27cfad814d8afe3c5e2f9b18278b2e29.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_9960e11f9b95e1d92a7f7c185870798894761216.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="190a642ba16d1421296a4d794606279b80039c59">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.8.0_89d4d8c6a9fcbea5f2597db1def481005275aa4c.jar" />
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_89d4d8c6a9fcbea5f2597db1def481005275aa4c/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_09b06e898fca2477bf84eb10393660a217253969.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_46fb136b6433c6190dc0ea2238febb50ac6e96ff.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.8.0_9f41cdf92bb5e2d0b6da4b55f03ea8971e7cd345.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_412ecf4574624c5d0eabc5450290c32887eae50f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_a16f2f59d134c7f2cd3cfcc16c98fa66506bfd03.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_409b5e57158513e35669ee3c22f9344ab0469bf1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_b191fbea647c4a7dac05302ee993171d76da1c71.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_9ff877500256a760fc7183810a80661eca82efcb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_9817cc44f8c2ff9929ba59228cbca04804c5af3e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_c0e332d944ca1d34b734278f65e55d5fef315a1d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.8.0_f6e3fb4b2f588c257efc8a63bf493879e6fd1573.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_0fcebecbb4f45fc067ac60ca247d019806ebccc9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.8.0_0c031c31c6988d8a8d14b8ad06a379ffe91f6195.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_1a4ea7cae84d3e31cec6dbd3dcdd9ebe05fa0de3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_2baf3d00d5216eff4d31bd3b6e75dc56f0884a86.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.8.0_0319ef0d6338957aeb0c0bac821fedc40667797e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.8.0_bb4f0f47bab62e513f38ee5622d44bcdc061993b.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_6d41ea339e72d72c18786ea75e67d0e0d06d8edb.jar" />
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_6d41ea339e72d72c18786ea75e67d0e0d06d8edb/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.8.0_146b4baccc0aeac8e43b5b1abda0cdacc5d5306e.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.8.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.8.0_fdfadaba3889c2df533fe1702785fc164dc2af10.jar" />
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.8.0_fdfadaba3889c2df533fe1702785fc164dc2af10/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.8.0_aba6e06eb37d6b44403ab84882eff6567e7eac71.jar" />
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_09b06e898fca2477bf84eb10393660a217253969/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_46fb136b6433c6190dc0ea2238febb50ac6e96ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.8.0_90d3a4e316873217281ed05543d086b95dbde71d.jar" />
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.8.0_90d3a4e316873217281ed05543d086b95dbde71d/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a16f2f59d134c7f2cd3cfcc16c98fa66506bfd03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.8.0_0c031c31c6988d8a8d14b8ad06a379ffe91f6195/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e6470fe5081bd76bb727ea9d0d9de373ac5940b">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-24.2.1_986e4286de22651427a3aa21dab49293f301efc6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_9ff877500256a760fc7183810a80661eca82efcb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f17ab650e112f4e2860d7db5ed0a757b8ba4d7fa">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_00e8c2ee514293cfacbfac718fa79522998bfebe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_0fcebecbb4f45fc067ac60ca247d019806ebccc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_62dcd5e50e025d2d443a86756b8b1b3c8f0cc11f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.8.0_a59a42eb3757b8949d1b8c234876c2ce9fab4ede/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f9e2bce6a4198db161d3895945970214ada460a9">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2cea4dc753a614ed84f837373ef22862dba5dfe7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_16e07036d7b1c10c1c04ece3117e2ba535d9d5a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_6210feb2bcd059d1b6fec250d298d75bc4a91332/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_cd878413f8ab8790814d74fbfacb930e0ab46346/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_1a4ea7cae84d3e31cec6dbd3dcdd9ebe05fa0de3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.8.0_f5990ff307e5f7ab0bcb209a5d8dde45c0556cb0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_d9b50d0c27cfad814d8afe3c5e2f9b18278b2e29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.8.0_bb4f0f47bab62e513f38ee5622d44bcdc061993b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_9960e11f9b95e1d92a7f7c185870798894761216/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_2baf3d00d5216eff4d31bd3b6e75dc56f0884a86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.8.0_0319ef0d6338957aeb0c0bac821fedc40667797e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.8.0_aba6e06eb37d6b44403ab84882eff6567e7eac71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_412ecf4574624c5d0eabc5450290c32887eae50f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.8.0_146b4baccc0aeac8e43b5b1abda0cdacc5d5306e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="9ff04cc3470178a44512624036751a803418c2ca">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.8.0_ebd5b9705bb3f60b7d5a652fdbc38ed37bd6b497.jar" />
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.8.0_ebd5b9705bb3f60b7d5a652fdbc38ed37bd6b497/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_409b5e57158513e35669ee3c22f9344ab0469bf1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.8.0_9f41cdf92bb5e2d0b6da4b55f03ea8971e7cd345/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.8.0_b411b63854c3236a6073011e3f4859ee4a11ab4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_13dd9f2b6af1391fba0fe7242f974c5fd3b1a91f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_b191fbea647c4a7dac05302ee993171d76da1c71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_9817cc44f8c2ff9929ba59228cbca04804c5af3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.8.0_f6e3fb4b2f588c257efc8a63bf493879e6fd1573/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_c0e332d944ca1d34b734278f65e55d5fef315a1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.8.0_c42b90450a1e40e61504edc75af09370ac700e70/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_6cfcbd5a9feba957497b34dceb1b31a502734c8f/classes.dex" />
     </item>
 
 </items>

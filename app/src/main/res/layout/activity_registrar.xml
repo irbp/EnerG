@@ -15,7 +15,9 @@
         android:layout_height="wrap_content"
         android:inputType="textCapWords"
         android:ems="10"
-        android:hint="Nome..."
+        android:hint="Nome"
+        android:background="@drawable/shape_fields"
+        android:padding="12dp"
         android:textColorHint="#8e7e7e"
         android:textColor="#000000"
         android:layout_marginTop="8dp"
@@ -31,7 +33,9 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:hint="E-mail..."
+        android:hint="E-mail"
+        android:background="@drawable/shape_fields"
+        android:padding="12dp"
         android:textColorHint="#8e7e7e"
         android:textColor="#000000"
         android:layout_below="@+id/txt_nomereg"
@@ -46,7 +50,9 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:hint="Senha..."
+        android:hint="Senha"
+        android:background="@drawable/shape_fields"
+        android:padding="12dp"
         android:textColorHint="#8e7e7e"
         android:textColor="#000000"
         android:layout_below="@+id/txt_emailreg"
@@ -56,14 +62,88 @@
         android:layout_marginBottom="20dp"
         android:id="@+id/txt_senhareg" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Confirmar senha"
+        android:background="@drawable/shape_fields"
+        android:padding="12dp"
+        android:textColorHint="#8e7e7e"
+        android:textColor="#000000"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/txt_confsenhareg"
+        android:layout_below="@+id/txt_senhareg" />
+
     <Button
         android:text="Criar Conta"
-        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txt_senhareg"
-        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_button"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:id="@+id/btn_signup" />
+        android:layout_marginBottom="20dp"
+        android:id="@+id/btn_signup"
+        android:layout_below="@+id/txt_confsenhareg" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view"
+        android:layout_below="@+id/btn_signup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="OU"
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <ImageButton
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:srcCompat="@mipmap/buttons"
+        android:id="@+id/imageButton"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="AO CRIAR UMA CONTA VOCÊ CONCORDA COM"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:text="@string/termos"
+        android:textSize="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

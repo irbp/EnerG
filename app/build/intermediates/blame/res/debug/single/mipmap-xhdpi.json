@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/italo/Desktop/EnerG/E:\\ESS\\EnerG\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
-        "source": "/home/italo/Desktop/EnerG/E:\\ESS\\EnerG\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/home/italo/Desktop/EnerG/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }

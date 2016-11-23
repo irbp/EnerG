@@ -2,6 +2,7 @@ package goncinha.energ;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,6 +26,7 @@ public class RegistrarActivity extends AppCompatActivity {
     private EditText mNome;
     private EditText mEmail;
     private EditText mSenha;
+    private EditText mSenhaRep;
     private Button mBtnCriar;
 
     private FirebaseAuth mAuth;
@@ -45,6 +47,7 @@ public class RegistrarActivity extends AppCompatActivity {
         mNome = (EditText) findViewById(R.id.txt_nomereg);
         mEmail = (EditText) findViewById(R.id.txt_emailreg);
         mSenha = (EditText) findViewById(R.id.txt_senhareg);
+        mSenhaRep = (EditText) findViewById(R.id.txt_confsenhareg);
         mBtnCriar = (Button) findViewById(R.id.btn_signup);
 
         mBtnCriar.setOnClickListener(new View.OnClickListener() {
@@ -59,12 +62,15 @@ public class RegistrarActivity extends AppCompatActivity {
         final String nome;
         String email;
         String senha;
+        String senharep;
 
         nome = mNome.getText().toString().trim();
         email = mEmail.getText().toString().trim();
         senha = mSenha.getText().toString().trim();
+        senharep = mSenhaRep.getText().toString().trim();
 
-        if (!TextUtils.isEmpty(nome) && !TextUtils.isEmpty(email) && !TextUtils.isEmpty(senha)) {
+        if (!TextUtils.isEmpty(nome) && !TextUtils.isEmpty(email) && !TextUtils.isEmpty(senha) &&
+                senharep.equals(senha)) {
             mProgresso.setMessage("Criando conta...");
             mProgresso.show();
 
@@ -88,7 +94,12 @@ public class RegistrarActivity extends AppCompatActivity {
             });
         }
         else {
-            Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_LONG).show();
+            if (!senharep.equals(senha)) {
+                Toast.makeText(this, "As senhas deve corresponder!", Toast.LENGTH_LONG).show();
+            }
+            else {
+                Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_LONG).show();
+            }
         }
 
     }
