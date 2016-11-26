@@ -1,4 +1,4 @@
-#Sat Nov 26 09:45:13 BRT 2016
+#Sat Nov 26 11:13:49 BRT 2016
 base.0=/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2cea4dc753a614ed84f837373ef22862dba5dfe7
 renamed.1=classes.dex
 renamed.0=classes2.dex

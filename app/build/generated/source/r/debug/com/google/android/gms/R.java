@@ -138,7 +138,7 @@ public final class R {
 		public static final int store_picture_title = 0x7f06002f;
 	}
 	public static final class style {
-		public static final int Theme_IAPTheme = 0x7f080115;
+		public static final int Theme_IAPTheme = 0x7f080117;
 	}
 	public static final class styleable {
 		public static final int[] AdsAttrs = { 0x7f010021, 0x7f010022, 0x7f010023 };

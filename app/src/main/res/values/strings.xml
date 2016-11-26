@@ -13,5 +13,6 @@
     <string name="termos"> <u>TERMOS E CONDIÇÕES E POLÍTICA DE PRIVACIDADE</u> </string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="title_activity_main">Main</string>
 
 </resources>
