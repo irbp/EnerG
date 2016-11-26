@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Nov 26 11:13:54 BRT 2016
+#Sat Nov 26 11:32:08 BRT 2016
 210.set=ANDROID_RESOURCE
 282.file=/home/italo/Desktop/EnerG/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_material.xml
 14.set=ANDROID_RESOURCE

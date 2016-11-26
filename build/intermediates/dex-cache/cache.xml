@@ -304,7 +304,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0cd2d0c91fa9ebf49f9336260d22c8a12df4ba0c">
+        sha1="c18d33b5c22c621d247767c34c377ddb128331dc">
         <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2cea4dc753a614ed84f837373ef22862dba5dfe7/classes.dex" />
     </item>
     <item

@@ -88,6 +88,7 @@ public class RegistrarActivity extends AppCompatActivity {
 
                         Intent mainIntent = new Intent(RegistrarActivity.this, Main.class);
                         mainIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        finish();
                         startActivity(mainIntent);
                     }
                 }
