@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="21"
         android:targetSdkVersion="24" />
 
     <!-- Include required permissions for Google Mobile Ads to run -->
@@ -38,20 +38,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="goncinha.energ.Main"
-            android:parentActivityName="goncinha.energ.Login" />
-        <activity
-            android:name="goncinha.energ.MenuM"
-            android:label="@string/title_activity_menu"
-            android:parentActivityName="goncinha.energ.Login"
-            android:theme="@style/Theme.AppCompat.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="goncinha.energ.Login" />
-        </activity>
         <activity android:name="goncinha.energ.RegistrarActivity" />
         <activity android:name="goncinha.energ.ConfigurarContaActivity" />
+        <activity android:name="goncinha.energ.Main" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

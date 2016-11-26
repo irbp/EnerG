@@ -44,16 +44,16 @@
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/ic_menu_slideshow.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/drawable/ic_menu_slideshow.xml"
+    },
+    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/off.png",
         "source": "/home/italo/Desktop/EnerG/app/src/main/res/drawable/off.png"
-    },
-    {
-        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
@@ -100,12 +100,20 @@
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/ic_menu_share.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/drawable/ic_menu_share.xml"
+    },
+    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ic_clear_material.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/tv.png",
         "source": "/home/italo/Desktop/EnerG/app/src/main/res/drawable/tv.png"
+    },
+    {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/ic_menu_camera.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/drawable/ic_menu_camera.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
@@ -118,6 +126,10 @@
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/ic_menu_send.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/drawable/ic_menu_send.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
@@ -148,6 +160,10 @@
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/ic_menu_gallery.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/drawable/ic_menu_gallery.xml"
+    },
+    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_item_background_holo_light.xml"
     },
@@ -160,8 +176,8 @@
         "source": "/home/italo/Desktop/EnerG/app/src/main/res/drawable/laptop.png"
     },
     {
-        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_btn_colored_material.xml"
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/ic_menu_manage.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/drawable/ic_menu_manage.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",

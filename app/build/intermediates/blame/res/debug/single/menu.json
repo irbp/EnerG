@@ -4,6 +4,10 @@
         "source": "/home/italo/Desktop/EnerG/app/src/main/res/menu/activity_menu_drawer.xml"
     },
     {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/menu/menu_navegacao.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/menu/menu_navegacao.xml"
+    },
+    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/menu/menu.xml",
         "source": "/home/italo/Desktop/EnerG/app/src/main/res/menu/menu.xml"
     }

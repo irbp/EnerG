@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:2:1-34:12
+ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:3:5-29
 		INJECTED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml
 		INJECTED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:5:5-32:19
+ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support:design:24.2.1] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:24.2.1] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:25:5-20
@@ -66,36 +66,18 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:15:27-74
-activity#goncinha.energ.Main
-ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:18:9-20:51
-	android:parentActivityName
-		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:20:13-48
-	android:name
-		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:19:13-33
-activity#goncinha.energ.MenuM
-ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:21:9-29:20
-	android:label
-		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:23:13-56
-	android:parentActivityName
-		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:24:13-48
-	android:theme
-		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:25:13-63
-	android:name
-		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:22:13-34
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:26:13-28:56
-	android:value
-		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:28:17-53
-	android:name
-		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:27:17-63
 activity#goncinha.energ.RegistrarActivity
-ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:30:9-55
+ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:18:9-55
 	android:name
-		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:30:19-52
+		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:18:19-52
 activity#goncinha.energ.ConfigurarContaActivity
-ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:31:9-70
+ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:19:9-61
 	android:name
-		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:31:19-58
+		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:19:19-58
+activity#goncinha.energ.Main
+ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:20:9-51
+	android:name
+		ADDED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml:20:19-39
 uses-sdk
 INJECTED from /home/italo/Desktop/EnerG/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:24.2.1] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/AndroidManifest.xml:20:5-43

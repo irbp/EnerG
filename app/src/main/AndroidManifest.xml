@@ -15,20 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Main"
-            android:parentActivityName=".Login" />
-        <activity
-            android:name=".MenuM"
-            android:label="@string/title_activity_menu"
-            android:parentActivityName=".Login"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="goncinha.energ.Login" />
-        </activity>
         <activity android:name=".RegistrarActivity" />
-        <activity android:name=".ConfigurarContaActivity"></activity>
+        <activity android:name=".ConfigurarContaActivity" />
+        <activity android:name=".Main"></activity>
     </application>
 
 </manifest>
