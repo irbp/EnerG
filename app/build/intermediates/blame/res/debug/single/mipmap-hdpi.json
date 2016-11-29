@@ -30,5 +30,9 @@
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_bug_report_white_24dp.png",
         "source": "/home/italo/Desktop/EnerG/app/src/main/res/mipmap-hdpi/ic_bug_report_white_24dp.png"
+    },
+    {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/mipmap-hdpi/widescreen_tv_48.png",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/mipmap-hdpi/widescreen_tv_48.png"
     }
 ]

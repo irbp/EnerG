@@ -60,7 +60,7 @@ public class RegistrarActivity extends AppCompatActivity {
 
     private void Registrar() {
         final String nome;
-        String email;
+        final String email;
         String senha;
         String senharep;
 
@@ -83,6 +83,7 @@ public class RegistrarActivity extends AppCompatActivity {
 
                         usuario_atual.child("nome").setValue(nome);
                         usuario_atual.child("imagem").setValue("default");
+                        usuario_atual.child("email").setValue(email);
 
                         mProgresso.dismiss();
 

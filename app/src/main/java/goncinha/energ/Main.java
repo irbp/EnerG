@@ -2,6 +2,7 @@ package goncinha.energ;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -13,16 +14,25 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import org.w3c.dom.Text;
 
 public class Main extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private FirebaseAuth mAuth;
     private DatabaseReference mDatabaseUsuarios;
+
+    private TextView nomeUser;
+    private TextView emailUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,9 +41,13 @@ public class Main extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        final String idUsuario;
+
         mAuth = FirebaseAuth.getInstance();
+        idUsuario = mAuth.getCurrentUser().getUid();
 
         mDatabaseUsuarios = FirebaseDatabase.getInstance().getReference().child("usuarios");
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -51,7 +65,30 @@ public class Main extends AppCompatActivity
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+
+        //Alterando os dados do header da nav bar para os dados do usuário
         navigationView.setNavigationItemSelectedListener(this);
+        View hView = navigationView.getHeaderView(0);
+        nomeUser = (TextView) hView.findViewById(R.id.txt_profileName);
+        emailUser = (TextView) hView.findViewById(R.id.txt_profileEmail);
+
+        mDatabaseUsuarios.child(idUsuario).addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                String nome = dataSnapshot.child("nome").getValue(String.class);
+                String email = dataSnapshot.child("email").getValue(String.class);
+
+                nomeUser.setText(nome);
+                emailUser.setText(email);
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
     }
 
     @Override
