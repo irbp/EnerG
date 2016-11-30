@@ -162,6 +162,7 @@
         </attr><attr format="boolean" name="behavior_hideable"/><attr format="boolean" name="behavior_skipCollapsed"/></declare-styleable>
     <declare-styleable name="ButtonBarLayout"><attr format="boolean" name="allowStacking"/></declare-styleable>
     <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/><attr name="android:minWidth"/><attr name="android:minHeight"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="border_overlay"/></declare-styleable>
     <declare-styleable name="CollapsingToolbarLayout"><attr format="dimension" name="expandedTitleMargin"/><attr format="dimension" name="expandedTitleMarginStart"/><attr format="dimension" name="expandedTitleMarginTop"/><attr format="dimension" name="expandedTitleMarginEnd"/><attr format="dimension" name="expandedTitleMarginBottom"/><attr format="reference" name="expandedTitleTextAppearance"/><attr format="reference" name="collapsedTitleTextAppearance"/><attr format="color" name="contentScrim"/><attr format="color" name="statusBarScrim"/><attr format="reference" name="toolbarId"/><attr format="dimension" name="scrimVisibleHeightTrigger"/><attr format="integer" name="scrimAnimationDuration"/><attr name="collapsedTitleGravity">
             
             <flag name="top" value="0x30"/>
@@ -289,6 +290,7 @@
             
             <flag name="all" value="0x77"/>
         </attr></declare-styleable>
+    <declare-styleable name="CropImageView"><attr name="cropGuidelines"><enum name="off" value="0"/><enum name="onTouch" value="1"/><enum name="on" value="2"/></attr><attr name="cropScaleType"><enum name="fitCenter" value="0"/><enum name="center" value="1"/><enum name="centerCrop" value="2"/><enum name="centerInside" value="3"/></attr><attr name="cropShape"><enum name="rectangle" value="0"/><enum name="oval" value="1"/></attr><attr format="boolean" name="cropAutoZoomEnabled"/><attr format="integer" name="cropMaxZoom"/><attr format="boolean" name="cropMultiTouchEnabled"/><attr format="boolean" name="cropFixAspectRatio"/><attr format="integer" name="cropAspectRatioX"/><attr format="integer" name="cropAspectRatioY"/><attr format="float" name="cropInitialCropWindowPaddingRatio"/><attr format="dimension" name="cropBorderLineThickness"/><attr format="color" name="cropBorderLineColor"/><attr format="dimension" name="cropBorderCornerThickness"/><attr format="dimension" name="cropBorderCornerOffset"/><attr format="dimension" name="cropBorderCornerLength"/><attr format="color" name="cropBorderCornerColor"/><attr format="dimension" name="cropGuidelinesThickness"/><attr format="color" name="cropGuidelinesColor"/><attr format="color" name="cropBackgroundColor"/><attr format="dimension" name="cropSnapRadius"/><attr format="dimension" name="cropTouchRadius"/><attr format="boolean" name="cropShowCropOverlay"/><attr format="boolean" name="cropShowProgressBar"/><attr format="dimension" name="cropMinCropWindowWidth"/><attr format="dimension" name="cropMinCropWindowHeight"/><attr format="float" name="cropMinCropResultWidthPX"/><attr format="float" name="cropMinCropResultHeightPX"/><attr format="float" name="cropMaxCropResultWidthPX"/><attr format="float" name="cropMaxCropResultHeightPX"/></declare-styleable>
     <declare-styleable name="DesignTheme"><attr format="reference" name="bottomSheetDialogTheme"/><attr format="reference" name="bottomSheetStyle"/><attr format="color" name="textColorError"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="FloatingActionButton"><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize">
@@ -606,6 +608,7 @@
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
+    <item name="crop_image_menu_crop" type="drawable"/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
@@ -687,6 +690,10 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
+    <string name="crop_image_activity_title"/>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
     <string name="debug_menu_ad_information">Ad Information</string>
     <string name="debug_menu_creative_preview">Creative Preview</string>
     <string name="debug_menu_title">Select a Debug Mode</string>
@@ -712,6 +719,7 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="search_menu_title">Search</string>

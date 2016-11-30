@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/menu/crop_image_menu.xml",
+        "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.theartofdev.edmodo/android-image-cropper/2.3.1/res/menu/crop_image_menu.xml"
+    },
+    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/home/italo/Desktop/EnerG/app/src/main/res/menu/main.xml"
     },

@@ -1,6 +1,8 @@
 package goncinha.energ;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
@@ -14,6 +16,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -22,8 +26,11 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.squareup.picasso.Picasso;
 
 import org.w3c.dom.Text;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Main extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -33,6 +40,7 @@ public class Main extends AppCompatActivity
 
     private TextView nomeUser;
     private TextView emailUser;
+    private ImageView imagemUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,17 +77,22 @@ public class Main extends AppCompatActivity
         //Alterando os dados do header da nav bar para os dados do usuário
         navigationView.setNavigationItemSelectedListener(this);
         View hView = navigationView.getHeaderView(0);
+
         nomeUser = (TextView) hView.findViewById(R.id.txt_profileName);
         emailUser = (TextView) hView.findViewById(R.id.txt_profileEmail);
+        imagemUser = (ImageView) hView.findViewById(R.id.btn_profilePic);
 
         mDatabaseUsuarios.child(idUsuario).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String nome = dataSnapshot.child("nome").getValue(String.class);
                 String email = dataSnapshot.child("email").getValue(String.class);
+                String imagem = dataSnapshot.child("imagem").getValue(String.class);
 
                 nomeUser.setText(nome);
                 emailUser.setText(email);
+
+                Picasso.with(getApplicationContext()).load(imagem).into(imagemUser);
 
             }
 
