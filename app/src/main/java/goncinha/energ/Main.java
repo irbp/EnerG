@@ -51,6 +51,10 @@ import com.squareup.picasso.Picasso;
 
 import org.w3c.dom.Text;
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -69,7 +73,7 @@ public class Main extends AppCompatActivity
     private TextView emailUser;
     private CircleImageView imagemUser;
 
-    private String content = null;
+    private static String content = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -136,6 +140,28 @@ public class Main extends AppCompatActivity
 
             }
         });
+
+        loadChart();
+    }
+
+    private void loadChart() {
+        try {
+            AssetManager assetManager = getAssets();
+            InputStream in = assetManager.open("hello-pizza-chart.html");
+            byte[] bytes = readFully(in);
+            content = new String(bytes, "UTF-8");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static byte[] readFully(InputStream in) throws IOException {
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        byte[] buffer = new byte[1024];
+        for (int count; (count = in.read(buffer)) != -1; ) {
+            out.write(buffer, 0, count);
+        }
+        return out.toByteArray();
     }
 
     private void criarBacon() {
@@ -238,7 +264,7 @@ public class Main extends AppCompatActivity
             ws.setJavaScriptEnabled(true);
             ws.setSupportZoom(false);
             pagina.setWebViewClient(new WebViewClient());
-            pagina.loadUrl(corrente);
+            pagina.loadDataWithBaseURL("file:///android_asset/", content, "text/html", "utf-8", null);
         }
 
         public void setOnline(String online) {
