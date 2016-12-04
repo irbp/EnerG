@@ -8,16 +8,20 @@
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_media_action.xml"
     },
     {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/nav_header_main.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/nav_header_main.xml"
+    },
+    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/loginlayout.xml",
-        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/loginlayout.xml"
-    },
-    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/loginlayout.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/loginlayout.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
@@ -26,6 +30,10 @@
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/content_main.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/content_main.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
@@ -40,6 +48,10 @@
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_title_item.xml"
     },
     {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/app_bar_main.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/app_bar_main.xml"
+    },
+    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_alert_dialog_material.xml"
     },
@@ -52,12 +64,12 @@
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_part_time.xml"
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/content_criar__bacon.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/content_criar__bacon.xml"
     },
     {
-        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/nav_header_menu.xml",
-        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/nav_header_menu.xml"
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/baconcell.xml",
@@ -136,10 +148,6 @@
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/app_bar_menu.xml",
-        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/app_bar_menu.xml"
-    },
-    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_lines.xml"
     },
@@ -184,6 +192,14 @@
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_layout_snackbar.xml"
     },
     {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/bacon_row.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/bacon_row.xml"
+    },
+    {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/activity_criar__bacon.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/activity_criar__bacon.xml"
+    },
+    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
@@ -212,16 +228,12 @@
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/activity_menu.xml",
-        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/activity_menu.xml"
-    },
-    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/content_menu.xml",
-        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/content_menu.xml"
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/crop_image_view.xml",
+        "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.theartofdev.edmodo/android-image-cropper/2.3.1/res/layout/crop_image_view.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
@@ -230,6 +242,10 @@
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/crop_image_activity.xml",
+        "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.theartofdev.edmodo/android-image-cropper/2.3.1/res/layout/crop_image_activity.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",

@@ -22,17 +22,19 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:layout_weight="0.37"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         android:textSize="30dp"
         android:textColor="#6fbf6f"
         android:textAlignment="center" />
 
     <EditText
         android:id = "@+id/user"
-        android:layout_width = "300dp"
+        android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="10dp"
+        android:paddingRight="10dp"
         android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
         android:background="@drawable/shape_fields"
         android:padding="12dp"
         android:inputType="textEmailAddress"
@@ -43,19 +45,12 @@
         android:hint="@string/username"
         android:textColorHint="@color/black"/>
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="1dp"
-        android:id="@+id/line1"
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="30dp"
-        android:background="@color/colorAccent"
-        />
     <EditText
         android:id = "@+id/password"
-        android:layout_width = "300dp"
+        android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:padding="12dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/shape_fields"
@@ -67,30 +62,25 @@
         android:maxLength="12"
         android:hint="@string/password"
         android:textColorHint="@color/black"/>
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="1dp"
-        android:id="@+id/line2"
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="30dp"
-        android:background="@color/colorAccent"
-        />
+
     <Button
         android:id = "@+id/login"
-        android:layout_width = "320dp"
-        android:layout_height = "40dp"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
         android:onClick = "login"
         android:text = "@string/login"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/shape_button" />
     <Button
         android:id = "@+id/register"
-        android:layout_width = "127dp"
+        android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
         android:onClick = "login"
         android:text = "@string/new_account"
-        android:layout_marginLeft="125dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:visibility="visible"
         android:background="#00ffffff"

@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -76,6 +77,7 @@ public class Login extends AppCompatActivity {
                 else {
                     mInt = new Intent(Login.this, Main.class);
                     mInt.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    finish();
                     startActivity(mInt);
                 }
             }
@@ -130,6 +132,7 @@ public class Login extends AppCompatActivity {
                 if (dataSnapshot.hasChild(idUsuario)) {
                     Intent mInt = new Intent(Login.this, Main.class);
                     mInt.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    finish();
                     startActivity(mInt);
                 }
                 else {
