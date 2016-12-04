@@ -1,61 +1,34 @@
 package goncinha.energ;
 
 /**
- * Created by mateu on 14/11/2016.
+ * Created by italo on 04/12/16.
  */
 
 public class Bacon {
-    private String name;
-    private String disponibilidade;
-    private int onoff;
-    private int icon;
-    private String io;
+    private String corrente, online;
 
-    public Bacon(String name, String disponibilidade,int onoff, int icon,String io) {
-        this.name = name;
-        this.disponibilidade = disponibilidade;
-        this.icon = icon;
-        this.onoff = onoff;
-        this.io = io;
+    public Bacon() {
+
     }
 
-    public String getIo() {
-        return io;
+    public Bacon(String corrente, String online) {
+        this.corrente = corrente;
+        this.online = online;
     }
 
-    public void setIo(String io) {
-        this.io = io;
+    public String getCorrente() {
+        return corrente;
     }
 
-    public int getOnoff() {
-        return onoff;
+    public void setCorrente(String corrente) {
+        this.corrente = corrente;
     }
 
-    public void setOnoff(int onoff) {
-        this.onoff = onoff;
+    public String getOnline() {
+        return online;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getDisponibilidade() {
-        return disponibilidade;
-    }
-
-    public void setDisponibilidade(String disponibilidade) {
-        this.disponibilidade = disponibilidade;
-    }
-
-    public int getIcon() {
-        return icon;
-    }
-
-    public void setIcon(int icon) {
-        this.icon = icon;
+    public void setOnline(String online) {
+        this.online = online;
     }
 }

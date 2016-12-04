@@ -1,6 +1,7 @@
 package goncinha.energ;
 
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -8,6 +9,8 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,12 +20,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
@@ -56,12 +62,14 @@ public class Main extends AppCompatActivity
     private FirebaseAuth mAuth;
     private DatabaseReference mDatabaseUsuarios;
     private DatabaseReference mDatabaseLed;
+    private DatabaseReference mDatabaseBacons;
 
-    private WebView wv;
-
+    private RecyclerView mBaconList;
     private TextView nomeUser;
     private TextView emailUser;
     private CircleImageView imagemUser;
+
+    private String content = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,12 +85,11 @@ public class Main extends AppCompatActivity
 
         mDatabaseUsuarios = FirebaseDatabase.getInstance().getReference().child("usuarios");
         mDatabaseLed = FirebaseDatabase.getInstance().getReference().child("led");
+        mDatabaseBacons = FirebaseDatabase.getInstance().getReference().child("bacons_all");
 
-        wv = (WebView) findViewById(R.id.webView);
-        WebSettings ws = wv.getSettings();
-        ws.setJavaScriptEnabled(true);
-        ws.setSupportZoom(false);
-        wv.loadUrl("http://www.google.com.br");
+        mBaconList = (RecyclerView) findViewById(R.id.bacon_list);
+        mBaconList.setHasFixedSize(true);
+        mBaconList.setLayoutManager(new LinearLayoutManager(this));
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -129,7 +136,6 @@ public class Main extends AppCompatActivity
 
             }
         });
-
     }
 
     private void criarBacon() {
@@ -195,6 +201,50 @@ public class Main extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        FirebaseRecyclerAdapter<Bacon, BaconViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Bacon, BaconViewHolder>(
+                Bacon.class,
+                R.layout.bacon_row,
+                BaconViewHolder.class,
+                mDatabaseBacons
+        ) {
+            @Override
+            protected void populateViewHolder(BaconViewHolder viewHolder, Bacon model, int position) {
+                viewHolder.setWebPage(model.getCorrente());
+                viewHolder.setOnline(model.getOnline());
+            }
+        };
+
+        mBaconList.setAdapter(firebaseRecyclerAdapter);
+    }
+
+    public static class BaconViewHolder extends RecyclerView.ViewHolder {
+        View mView;
+
+        public BaconViewHolder(View itemView) {
+            super(itemView);
+
+            mView = itemView;
+        }
+
+        public void setWebPage(String corrente) {
+            WebView pagina = (WebView) mView.findViewById(R.id.web_grafico);
+            WebSettings ws = pagina.getSettings();
+            ws.setJavaScriptEnabled(true);
+            ws.setSupportZoom(false);
+            pagina.setWebViewClient(new WebViewClient());
+            pagina.loadUrl(corrente);
+        }
+
+        public void setOnline(String online) {
+            TextView mOnline = (TextView) mView.findViewById(R.id.txt_baconName);
+            mOnline.setText(online);
+        }
     }
 
     private void logout() {

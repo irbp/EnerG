@@ -46,11 +46,13 @@ MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /home/italo/Deskt
 MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-gass:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-maps:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/AndroidManifest.xml:24:5-19
-MERGED from [com.google.firebase:firebase-common:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.firebase:firebase-auth:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.firebase:firebase-messaging:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/AndroidManifest.xml:19:5-29:19
 MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:28:5-50:19
+MERGED from [com.firebaseui:firebase-ui-database:1.0.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/1.0.0/AndroidManifest.xml:13:5-17:19
+MERGED from [com.android.support:palette-v7:24.2.1] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.2.1/AndroidManifest.xml:22:5-23:19
 MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/AndroidManifest.xml:9:5-20
 MERGED from [com.jjoe64:graphview:4.2.1] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/AndroidManifest.xml:11:5-12:19
 MERGED from [com.google.firebase:firebase-core:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/9.8.0/AndroidManifest.xml:5:5-20
@@ -133,14 +135,17 @@ MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /home/italo/Deskt
 MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-gass:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.8.0/AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-maps:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/AndroidManifest.xml:23:5-42
-MERGED from [com.google.firebase:firebase-database:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database-connection:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-common:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-auth:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-auth-module:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-messaging:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:17:5-42
+MERGED from [com.firebaseui:firebase-ui-database:1.0.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/1.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.8.0/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.8.0/AndroidManifest.xml:3:5-42
+MERGED from [com.firebaseui:firebase-ui-storage:1.0.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-storage/1.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:palette-v7:24.2.1] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.2.1/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-storage:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.8.0/AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-storage-common:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.8.0/AndroidManifest.xml:3:5-42
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.3.1] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.theartofdev.edmodo/android-image-cropper/2.3.1/AndroidManifest.xml:8:5-10:41
@@ -161,6 +166,7 @@ uses-permission#android.permission.INTERNET
 ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:19:5-66
 MERGED from [com.google.android.gms:play-services-maps:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/AndroidManifest.xml:20:5-66
+MERGED from [com.firebaseui:firebase-ui-database:1.0.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/1.0.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-analytics:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/AndroidManifest.xml:20:5-66
 	android:name
@@ -189,6 +195,7 @@ ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /home/italo/Des
 		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.8.0/AndroidManifest.xml:26:19-91
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/AndroidManifest.xml:20:9-121
+MERGED from [com.firebaseui:firebase-ui-database:1.0.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/1.0.0/AndroidManifest.xml:14:9-16:69
 	android:value
 		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/AndroidManifest.xml:20:66-119
 	android:name

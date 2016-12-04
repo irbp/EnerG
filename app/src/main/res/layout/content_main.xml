@@ -13,4 +13,9 @@
     tools:context="goncinha.energ.Main"
     tools:showIn="@layout/app_bar_main">
 
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bacon_list"></android.support.v7.widget.RecyclerView>
+
 </RelativeLayout>

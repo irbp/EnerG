@@ -16,12 +16,12 @@
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/loginlayout.xml",
-        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/loginlayout.xml"
-    },
-    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/loginlayout.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/loginlayout.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
@@ -190,6 +190,10 @@
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/bacon_row.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/layout/bacon_row.xml"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/layout/activity_criar__bacon.xml",
