@@ -97,7 +97,6 @@ public class RegistrarActivity extends AppCompatActivity {
             imagemUri = data.getData();
 
             CropImage.activity(imagemUri)
-                    .setRequestedSize(50,50)
                     .setGuidelines(CropImageView.Guidelines.ON)
                     .setAspectRatio(1, 1)
                     .setCropShape(CropImageView.CropShape.OVAL)
@@ -153,6 +152,7 @@ public class RegistrarActivity extends AppCompatActivity {
 
                         usuario_atual.child("nome").setValue(nome);
                         usuario_atual.child("email").setValue(email);
+                        usuario_atual.child("bacons").setValue("default");
 
                         if (imagemUri != null) {
                             caminho.putFile(imagemUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {

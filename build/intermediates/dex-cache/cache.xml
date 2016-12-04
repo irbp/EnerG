@@ -174,15 +174,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.8.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.8.0_387d3e8d2b488466156dfcaff44d5f97ff0bc7b5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -192,21 +183,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.8.0_387d3e8d2b488466156dfcaff44d5f97ff0bc7b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/italo/Desktop/EnerG/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="305f759ab49cb0046d43be11f93771f2a63947ca">
+        sha1="8c5e831ff9b562788d170d3fc047ab2f9666007d">
         <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_00e8c2ee514293cfacbfac718fa79522998bfebe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-1.3.0_ae53429eb4d042cba5d429138f48c975241dae2b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -225,6 +216,15 @@
         revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_0fcebecbb4f45fc067ac60ca247d019806ebccc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.1.0_5aa82c44c62baf80fca479f69baf3f89e1ef3de0/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -309,6 +309,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/italo/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.1/369f9aa48a629b4e92557b37326f42dc3de796e4/MPAndroidChart-v3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="369f9aa48a629b4e92557b37326f42dc3de796e4">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/MPAndroidChart-v3.0.1_42820b02111d8ad8450ed59880a34fd5c07f52b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.8.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -336,12 +345,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/italo/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jar="/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_1b464cbce84dcc113bcf45b16a4c3623facaad34/classes.dex" />
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jjoe64-graphview-4.2.1_54ee6ea0d43d2d78fe583ddddc3b050eff265e99/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -349,7 +358,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6e310cc301ba43594d1f06f06203b739344b8287">
+        sha1="fb252c814c448822eacb7c2db3430dcf952bc9ff">
         <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2cea4dc753a614ed84f837373ef22862dba5dfe7/classes.dex" />
     </item>
     <item
@@ -360,6 +369,15 @@
         revision="25.0.0"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
         <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_16e07036d7b1c10c1c04ece3117e2ba535d9d5a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/italo/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_1b464cbce84dcc113bcf45b16a4c3623facaad34/classes.dex" />
     </item>
     <item
         is-multidex="true"

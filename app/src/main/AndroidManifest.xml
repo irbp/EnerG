@@ -20,14 +20,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-            android:theme="@style/Base.Theme.AppCompat"/>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
         <activity android:name=".RegistrarActivity" />
         <activity android:name=".ConfigurarContaActivity" />
         <activity
             android:name=".Main"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Criar_Bacon"
+            android:label="@string/title_activity_criar__bacon"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

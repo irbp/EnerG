@@ -236,15 +236,15 @@
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/crop_image_menu_rotate_left.png",
+        "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.theartofdev.edmodo/android-image-cropper/2.3.1/res/drawable-hdpi-v4/crop_image_menu_rotate_left.png"
+    },
+    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/crop_image_menu_rotate_left.png",
-        "source": "/home/italo/Desktop/EnerG/app/build/intermediates/exploded-aar/com.theartofdev.edmodo/android-image-cropper/2.3.1/res/drawable-hdpi-v4/crop_image_menu_rotate_left.png"
     }
 ]

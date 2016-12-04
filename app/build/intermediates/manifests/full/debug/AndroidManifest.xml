@@ -52,6 +52,10 @@
             android:name="goncinha.energ.Main"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name="goncinha.energ.Criar_Bacon"
+            android:label="@string/title_activity_criar__bacon"
+            android:theme="@style/AppTheme" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
