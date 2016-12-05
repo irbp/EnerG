@@ -1,5 +1,6 @@
 package goncinha.energ;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -50,9 +51,13 @@ public class Criar_Bacon extends AppCompatActivity {
 
         id = idBacon.getText().toString().trim();
         if (!TextUtils.isEmpty(id)) {
-            mDatabaseBacons.child(mAuth.getCurrentUser().getUid()).child(id).setValue("off");
+            mDatabaseBacons.child(mAuth.getCurrentUser().getUid()).child(id).child("online").setValue("offline");
             mDatabaseBaconsAll.child(id).child("usuario").setValue(mAuth.getCurrentUser().getUid().toString());
 
+            Intent mInt = new Intent(Criar_Bacon.this, Main.class);
+            mInt.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            finish();
+            startActivity(mInt);
         }
         else {
             Toast.makeText(Criar_Bacon.this, "O campo não pode ficar vazio!", Toast.LENGTH_SHORT).show();

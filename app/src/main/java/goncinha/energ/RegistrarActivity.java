@@ -179,7 +179,10 @@ public class RegistrarActivity extends AppCompatActivity {
         }
         else {
             if (!senharep.equals(senha)) {
-                Toast.makeText(this, "As senhas deve corresponder!", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "As senhas devem corresponder!", Toast.LENGTH_LONG).show();
+            }
+            else if (senha.length() < 6 || senharep.length() < 6) {
+                Toast.makeText(this, "A senha precisa ter no mínimo 6 caracteres!", Toast.LENGTH_LONG).show();
             }
             else {
                 Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_LONG).show();
