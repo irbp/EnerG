@@ -20,7 +20,7 @@
         android:scaleType="centerCrop"
         app:civ_border_width="2dp"
         app:civ_border_color="#FFFFFF"
-        android:src="@android:drawable/sym_def_app_icon" />
+        android:src="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/txt_profileName"
