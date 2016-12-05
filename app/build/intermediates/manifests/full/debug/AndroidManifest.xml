@@ -46,15 +46,17 @@
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name="goncinha.energ.RegistrarActivity" />
+        <activity
+            android:name="goncinha.energ.RegistrarActivity"
+            android:label="Criar Conta" />
         <activity android:name="goncinha.energ.ConfigurarContaActivity" />
         <activity
             android:name="goncinha.energ.Main"
-            android:label="@string/title_activity_main"
+            android:label="EnerG"
             android:theme="@style/AppTheme" />
         <activity
             android:name="goncinha.energ.Criar_Bacon"
-            android:label="@string/title_activity_criar__bacon"
+            android:label="Criar Bacon"
             android:theme="@style/AppTheme" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
