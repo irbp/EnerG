@@ -18,18 +18,22 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+
+import org.w3c.dom.Text;
 
 import java.io.File;
 
 public class Criar_Bacon extends AppCompatActivity {
 
     private EditText idBacon;
-    private Button mDebug;
     private EditText nomeBacon;
     private Switch mSwitch;
     private TextView mOnline;
@@ -67,7 +71,6 @@ public class Criar_Bacon extends AppCompatActivity {
             }
         });
 
-        mDebug = (Button) findViewById(R.id.deb);
         mDatabaseBacons = FirebaseDatabase.getInstance().getReference().child("bacons");
         mDatabaseBaconsAll = FirebaseDatabase.getInstance().getReference().child("bacons_all");
         mStorage = FirebaseStorage.getInstance().getReference().child("charts");
@@ -85,15 +88,6 @@ public class Criar_Bacon extends AppCompatActivity {
             }
         });
 
-        mDebug.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent debug = new Intent(Criar_Bacon.this, Debug.class);
-                debug.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(debug);
-            }
-        });
-
         if (mSwitch.isChecked()) {
             mOnline.setText("Online");
         }
@@ -108,38 +102,53 @@ public class Criar_Bacon extends AppCompatActivity {
 
         id = idBacon.getText().toString().trim();
         nome1 = nomeBacon.getText().toString().trim();
-        if (!TextUtils.isEmpty(id)) {
-            final StorageReference caminho = mStorage.child(id + ".html");
-            caminho.putFile(arquivo).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+        if (!TextUtils.isEmpty(id) && !TextUtils.isEmpty(nome1)) {
+            getmDatabaseOn.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
-                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                    Uri downloadUri = taskSnapshot.getDownloadUrl();
-                    mDatabaseBaconsAll.child(id).child("grafico").setValue(downloadUri.toString());
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    if (dataSnapshot.hasChild(id)) {
+                        Toast.makeText(Criar_Bacon.this, "O Bacon com a seguinte ID já foi registrado!", Toast.LENGTH_SHORT).show();
+                    }
+                    else {
+                        final StorageReference caminho = mStorage.child(id + ".html");
+                        caminho.putFile(arquivo).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                            @Override
+                            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                                Uri downloadUri = taskSnapshot.getDownloadUrl();
+                                mDatabaseBaconsAll.child(id).child("grafico").setValue(downloadUri.toString());
+                            }
+                        });
+
+                        mDatabaseBacons.child(mAuth.getCurrentUser().getUid()).child(id).child("id").setValue(id);
+                        mDatabaseBacons.child(mAuth.getCurrentUser().getUid()).child(id).child("nome").setValue(nome1);
+                        mDatabaseBaconsAll.child(id).child("usuario").setValue(mAuth.getCurrentUser().getUid().toString());
+                        mDatabaseBaconsAll.child(id).child("nome").setValue(nome1);
+                        mDatabaseBaconsAll.child(id).child("id").setValue(id);
+                        getmDatabaseOn.child(id).setValue("online");
+                        if (mSwitch.isChecked()) {
+                            mDatabaseBacons.child(mAuth.getCurrentUser().getUid()).child(id).child("online").setValue("online");
+                            mDatabaseBaconsAll.child(id).child("online").setValue("online");
+                        }
+                        else {
+                            mDatabaseBacons.child(mAuth.getCurrentUser().getUid()).child(id).child("online").setValue("offline");
+                            mDatabaseBaconsAll.child(id).child("online").setValue("offline");
+                        }
+
+                        Intent mInt = new Intent(Criar_Bacon.this, Main.class);
+                        mInt.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        finish();
+                        startActivity(mInt);
+                    }
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
                 }
             });
-
-            mDatabaseBacons.child(mAuth.getCurrentUser().getUid()).child(id).child("id").setValue(id);
-            mDatabaseBacons.child(mAuth.getCurrentUser().getUid()).child(id).child("nome").setValue(nome1);
-            mDatabaseBaconsAll.child(id).child("usuario").setValue(mAuth.getCurrentUser().getUid().toString());
-            mDatabaseBaconsAll.child(id).child("nome").setValue(nome1);
-            mDatabaseBaconsAll.child(id).child("id").setValue(id);
-            getmDatabaseOn.child(id).setValue("online");
-            if (mSwitch.isChecked()) {
-                mDatabaseBacons.child(mAuth.getCurrentUser().getUid()).child(id).child("online").setValue("online");
-                mDatabaseBaconsAll.child(id).child("online").setValue("online");
-            }
-            else {
-                mDatabaseBacons.child(mAuth.getCurrentUser().getUid()).child(id).child("online").setValue("offline");
-                mDatabaseBaconsAll.child(id).child("online").setValue("offline");
-            }
-
-            Intent mInt = new Intent(Criar_Bacon.this, Main.class);
-            mInt.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            finish();
-            startActivity(mInt);
         }
         else {
-            Toast.makeText(Criar_Bacon.this, "O campo não pode ficar vazio!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Criar_Bacon.this, "O campos não podem ficar vazios!", Toast.LENGTH_SHORT).show();
         }
     }
 

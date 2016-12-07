@@ -13,12 +13,6 @@
     tools:context="goncinha.energ.Criar_Bacon"
     tools:showIn="@layout/activity_criar__bacon">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Debug"
-        android:id="@+id/deb" />
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
