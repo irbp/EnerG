@@ -89,7 +89,7 @@ public class Main extends AppCompatActivity
 
         mDatabaseUsuarios = FirebaseDatabase.getInstance().getReference().child("usuarios");
         mDatabaseLed = FirebaseDatabase.getInstance().getReference().child("led");
-        mDatabaseBacons = FirebaseDatabase.getInstance().getReference().child("bacons_all");
+        mDatabaseBacons = FirebaseDatabase.getInstance().getReference().child("bacons");
 
         mBaconList = (RecyclerView) findViewById(R.id.bacon_list);
         mBaconList.setHasFixedSize(true);
@@ -131,7 +131,7 @@ public class Main extends AppCompatActivity
                 nomeUser.setText(nome);
                 emailUser.setText(email);
 
-                //Picasso.with(getApplicationContext()).load(imagem).into(imagemUser);
+                Picasso.with(getApplicationContext()).load(imagem).into(imagemUser);
 
             }
 
@@ -233,11 +233,13 @@ public class Main extends AppCompatActivity
     protected void onStart() {
         super.onStart();
 
+        String userId = mAuth.getCurrentUser().getUid().toString();
+
         FirebaseRecyclerAdapter<Bacon, BaconViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Bacon, BaconViewHolder>(
                 Bacon.class,
                 R.layout.bacon_row,
                 BaconViewHolder.class,
-                mDatabaseBacons
+                mDatabaseBacons.child(userId)
         ) {
             @Override
             protected void populateViewHolder(BaconViewHolder viewHolder, Bacon model, int position) {
