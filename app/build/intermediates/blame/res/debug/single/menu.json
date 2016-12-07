@@ -8,11 +8,11 @@
         "source": "/home/italo/Desktop/EnerG/app/src/main/res/menu/main.xml"
     },
     {
-        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
-        "source": "/home/italo/Desktop/EnerG/app/src/main/res/menu/activity_main_drawer.xml"
-    },
-    {
         "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/menu/menu.xml",
         "source": "/home/italo/Desktop/EnerG/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/home/italo/Desktop/EnerG/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/home/italo/Desktop/EnerG/app/src/main/res/menu/activity_main_drawer.xml"
     }
 ]

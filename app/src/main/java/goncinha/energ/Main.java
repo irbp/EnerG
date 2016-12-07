@@ -1,11 +1,13 @@
 package goncinha.energ;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -20,13 +22,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.JavascriptInterface;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.github.mikephil.charting.charts.LineChart;
@@ -44,6 +49,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
@@ -63,10 +70,20 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class Main extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    private Context mContext;
+
     private FirebaseAuth mAuth;
     private DatabaseReference mDatabaseUsuarios;
     private DatabaseReference mDatabaseLed;
     private DatabaseReference mDatabaseBacons;
+    private DatabaseReference getmDatabaseBaconsAll;
+    private DatabaseReference getmDatabaseOn;
+    private StorageReference mStorage;
+
+    private static WebView pagina;
+
+    private boolean mProcessOn = false;
+    private String status = "offline";
 
     private RecyclerView mBaconList;
     private TextView nomeUser;
@@ -90,6 +107,9 @@ public class Main extends AppCompatActivity
         mDatabaseUsuarios = FirebaseDatabase.getInstance().getReference().child("usuarios");
         mDatabaseLed = FirebaseDatabase.getInstance().getReference().child("led");
         mDatabaseBacons = FirebaseDatabase.getInstance().getReference().child("bacons");
+        mStorage = FirebaseStorage.getInstance().getReference().child("charts");
+        getmDatabaseOn = FirebaseDatabase.getInstance().getReference().child("On");
+        getmDatabaseBaconsAll = FirebaseDatabase.getInstance().getReference().child("bacons_all");
 
         mBaconList = (RecyclerView) findViewById(R.id.bacon_list);
         mBaconList.setHasFixedSize(true);
@@ -208,20 +228,8 @@ public class Main extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_consumo) {
-            // Handle the camera action
-        } else if (id == R.id.nav_perfis) {
-
-        } else if (id == R.id.nav_configuracoes) {
-
-        } else if (id == R.id.nav_logout) {
+        if (id == R.id.nav_logout) {
             logout();
-        } else if (id == R.id.nav_ajuda) {
-
-        } else if (id == R.id.nav_bug) {
-
-        } else if (id == R.id.nav_sobre) {
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -233,7 +241,7 @@ public class Main extends AppCompatActivity
     protected void onStart() {
         super.onStart();
 
-        String userId = mAuth.getCurrentUser().getUid().toString();
+        final String userId = mAuth.getCurrentUser().getUid().toString();
 
         FirebaseRecyclerAdapter<Bacon, BaconViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Bacon, BaconViewHolder>(
                 Bacon.class,
@@ -242,9 +250,45 @@ public class Main extends AppCompatActivity
                 mDatabaseBacons.child(userId)
         ) {
             @Override
-            protected void populateViewHolder(BaconViewHolder viewHolder, Bacon model, int position) {
-                viewHolder.setWebPage(model.getCorrente());
+            protected void populateViewHolder(final BaconViewHolder viewHolder, final Bacon model, int position) {
+                final String bacon_key = getRef(position).getKey();
+
+                viewHolder.setNome(model.getNome());
                 viewHolder.setOnline(model.getOnline());
+
+                viewHolder.mOnButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        mProcessOn = true;
+                        getmDatabaseOn.addValueEventListener(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                                if (status.equals("online") && mProcessOn) {
+                                    getmDatabaseOn.child(bacon_key).setValue("offline");
+                                    status = "offline";
+                                    mDatabaseBacons.child(userId).child(bacon_key).child("online").setValue("offline");
+                                    getmDatabaseBaconsAll.child(bacon_key).child("online").setValue("offline");
+                                    viewHolder.mOnButton.setImageResource(R.drawable.off1);
+                                    mProcessOn = false;
+                                } else if (status.equals("offline") && mProcessOn) {
+                                    getmDatabaseOn.child(bacon_key).setValue("online");
+                                    status = "online";
+                                    getmDatabaseBaconsAll.child(bacon_key).child("online").setValue("online");
+                                    mDatabaseBacons.child(userId).child(bacon_key).child("online").setValue("online");
+                                    viewHolder.mOnButton.setImageResource(R.drawable.on1);
+                                    mProcessOn = false;
+                                }
+                            }
+
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+
+                            }
+                        });
+                    }
+                });
+
             }
         };
 
@@ -254,24 +298,31 @@ public class Main extends AppCompatActivity
     public static class BaconViewHolder extends RecyclerView.ViewHolder {
         View mView;
 
+        ImageButton mOnButton;
+
         public BaconViewHolder(View itemView) {
             super(itemView);
 
             mView = itemView;
+
+            mOnButton = (ImageButton) mView.findViewById(R.id.btn_turnon);
         }
 
-        public void setWebPage(String corrente) {
-            WebView pagina = (WebView) mView.findViewById(R.id.web_grafico);
-            WebSettings ws = pagina.getSettings();
-            ws.setJavaScriptEnabled(true);
-            ws.setSupportZoom(false);
-            pagina.setWebViewClient(new WebViewClient());
-            pagina.loadDataWithBaseURL("file:///android_asset/", content, "text/html", "utf-8", null);
+        public void setNome(String nome) {
+            TextView mNome = (TextView) mView.findViewById(R.id.txt_baconStatus);
+            mNome.setText(nome);
         }
 
         public void setOnline(String online) {
             TextView mOnline = (TextView) mView.findViewById(R.id.txt_baconName);
             mOnline.setText(online);
+
+            pagina = (WebView) mView.findViewById(R.id.web_grafico);
+            WebSettings ws = pagina.getSettings();
+            ws.setJavaScriptEnabled(true);
+            ws.setSupportZoom(false);
+            pagina.setWebViewClient(new WebViewClient());
+            pagina.loadDataWithBaseURL("file:///android_asset/", content, "text/html", "utf-8", null);
         }
     }
 

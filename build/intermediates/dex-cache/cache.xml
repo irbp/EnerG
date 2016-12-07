@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="2e6197848f5994aee074e31860f63f56415c6751">
+        sha1="de82601ee053adaee280f5dd913d94bb547fab13">
         <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_00e8c2ee514293cfacbfac718fa79522998bfebe/classes.dex" />
     </item>
     <item
@@ -187,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="dbf5a23033d7ab44eabdf6810adffc076bc00139">
+        sha1="e0cc62b39faa9ebe3a829a6c625eb00a13eef586">
         <dex dex="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2cea4dc753a614ed84f837373ef22862dba5dfe7/classes.dex" />
     </item>
     <item

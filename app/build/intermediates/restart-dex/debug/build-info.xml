@@ -1,47 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="23"
-    density="xxhdpi"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="21614259223147"
+    timestamp="56736130968675"
     token="389999048885719632"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FIELD_ADDED" >
 
     <task
         name="javac"
-        duration="289" />
+        duration="243" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="22" />
+        duration="24" />
     <task
         name="verifier"
-        duration="1" />
+        duration="2" />
 
-    <artifact
-        location="/home/italo/Desktop/EnerG/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
     <artifact
         location="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="20266989914006"
+        timestamp="55323485251630"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/italo/Desktop/EnerG/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="21614259223147"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/italo/Desktop/EnerG/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
+        timestamp="56736130968675"
+        verifier="FIELD_ADDED" >
         <artifact
             location="/home/italo/Desktop/EnerG/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
             type="DEX" />

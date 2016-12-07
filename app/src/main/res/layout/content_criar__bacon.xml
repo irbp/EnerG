@@ -13,4 +13,45 @@
     tools:context="goncinha.energ.Criar_Bacon"
     tools:showIn="@layout/activity_criar__bacon">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debug"
+        android:id="@+id/deb" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:background="@drawable/shape_fields"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:hint="Digite o nome do seu Bacon"
+        android:ems="10"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="187dp"
+        android:id="@+id/txt_nomeBacon" />
+
+    <Switch
+        android:layout_width="50dp"
+        android:id="@+id/switch1"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txt_nomeBacon"
+        android:layout_marginTop="76dp"
+        android:layout_marginLeft="270dp"
+        android:textOn="Online"
+        android:textOff="Offline" />
+
+    <TextView
+        android:text="Inicializar o Bacon ligado"
+        android:textColor="#000000"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/switch1"
+        android:layout_alignLeft="@+id/switch1"
+        android:layout_alignBaseline="@+id/switch1"
+        android:layout_alignParentStart="true"
+        android:id="@+id/txt_on" />
+
 </RelativeLayout>

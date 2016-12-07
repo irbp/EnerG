@@ -23,8 +23,9 @@
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name=".RegistrarActivity"
-            android:label="Criar Conta"/>
+        <activity
+            android:name=".RegistrarActivity"
+            android:label="Criar Conta" />
         <activity android:name=".ConfigurarContaActivity" />
         <activity
             android:name=".Main"
@@ -33,7 +34,8 @@
         <activity
             android:name=".Criar_Bacon"
             android:label="Criar Bacon"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Debug"></activity>
     </application>
 
 </manifest>

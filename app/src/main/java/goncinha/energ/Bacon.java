@@ -5,23 +5,17 @@ package goncinha.energ;
  */
 
 public class Bacon {
-    private String corrente, online;
+    private String online;
+    private Float corrente;
+    private String nome;
 
     public Bacon() {
 
     }
 
-    public Bacon(String corrente, String online) {
-        this.corrente = corrente;
+    public Bacon(String online, String nome) {
         this.online = online;
-    }
-
-    public String getCorrente() {
-        return corrente;
-    }
-
-    public void setCorrente(String corrente) {
-        this.corrente = corrente;
+        this.nome = nome;
     }
 
     public String getOnline() {
@@ -30,5 +24,13 @@ public class Bacon {
 
     public void setOnline(String online) {
         this.online = online;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }
